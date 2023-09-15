@@ -1,0 +1,312 @@
+@media (min-width: 320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+}
+@media (min-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+
+}
+@media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+}
+@media (min-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+   
+}
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    #page-banner{
+        height: 40vh;
+    }
+    #about-link{
+        height: 10vh;
+        padding: 0 2rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    .btn{
+        padding:0.3rem 2rem;
+        font-size:1.2rem;
+
+    }
+    .nav-btn{
+        margin-left:1rem;
+    }
+    #banner{
+        padding-bottom: 0;
+        height: 100vh;
+    }
+    #banner .row{
+        flex-direction: revert;
+    }
+    #banner .banner-content-div h1{
+        font-size: 2.5rem;
+        padding-bottom: 3rem;
+    }
+    #banner .banner-content-div p{
+        font-size: 1rem;
+        padding-bottom: 3rem;
+    }
+    #find-park-sec {
+        padding: 6rem 0 0 0;
+    }
+    #find-park-sec .find-park-div .img-div .shape-map{
+        display: block;
+    }
+    #home-about .home-about-div .content-div p{
+        line-height: 2rem;
+    }
+    #find-park-sec .find-park-div .img-div .img-div-content {
+ 
+        height: 5.4rem;
+   
+    }
+    #find-park-sec .find-park-div{
+        grid-template-columns: repeat(12, 1fr);
+        padding:2rem 0;
+    }
+    #find-park-sec .find-park-div .img-div {
+        grid-row: 1;
+        grid-column: 1/6;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    #find-park-sec .find-park-div .img-div .img-div-content {
+        
+        justify-content: flex-start;
+    
+    }
+
+    #find-park-sec .find-park-div .img-div img{
+       object-fit: contain;
+       width: 100%;
+    }
+    #find-park-sec .find-park-div .home-map iframe{
+        border-radius: 50%;
+        width: 27em;
+        height: 27em;
+    }
+    #find-park-sec .find-park-div .home-map{
+       z-index: -1;
+        grid-row: 1;
+        grid-column: 5/-1;
+       
+    }
+    #find-park-sec .find-park-div .content{
+        grid-column: 10/13;
+        grid-row: 1;
+    }
+    
+    #find-park-sec .find-park-div .content h2{
+       padding-bottom: 1.5rem;
+    }
+    
+    #spote-sec .spote-div .app-mockup-div img {
+        height: 65vh;
+     }
+    #spote-sec .spote-div .app-function-div{
+        flex-direction: column;
+    }
+    #spote-sec .spote-div .app-mockup-div{
+        display: flex;
+    }
+    #spote-sec .spote-div .app-mockup-div p{
+        transform: none;
+        font-size: 1.8rem;
+        width: 16ch;
+        text-align: center;
+    }
+    #spote-sec .spote-div .app-function-div .box h3 {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #spote-sec .spote-div .app-status-div .box .box-content p{
+        font-size: 1.2rem;
+    }
+    #browse-sec .browse-div .content-div h2{
+        font-size: 3rem;
+        width: 24ch;
+    }
+    #browse-sec .browse-div .content-div p{
+        font-size: 2.3rem;
+    }
+    #browse-sec .browse-div .content-div{
+        width: 75vw;
+    }
+    #download-app .download-app-div .download-app-content img {
+        width: 80%;
+    }
+    #download-app .download-app-div .download-app-content {
+        width: 60vw;
+    }
+    #download-app .download-app-div .download-app-content h1{
+        font-size: 16rem;
+        line-height: 3rem;
+    }
+    #download-app .download-app-div .download-app-content h2{
+        font-size: 3rem;
+    }
+    #download-app .download-app-div .download-app-content h3{
+        padding: 5rem 0 0 5rem;
+    }
+    #download-app .download-app-div .download-app-content p {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    #download-app .download-app-div .download-app-content .download-link-div {
+       float: right;
+       padding-top: 9rem;
+    }
+    #spote-sec {
+        padding: 3rem 0 0 0;
+    }
+    #spote-sec h2{
+        padding-bottom: 2rem;
+    }
+    footer .footer-content-div{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        border-bottom-right-radius: 150px;
+    }
+    footer .footer-content-div .footer-about {
+        padding: 1rem;
+        width: 40%;
+    }
+    footer .footer-content-div .footer-contact-div{
+        align-self: flex-end;
+    }
+    #spote-sec .spote-div .app-function-div :nth-child(1) {
+        border-top-right-radius: 78px;
+        border-bottom-right-radius: 78px;
+    }
+    #spote-sec .spote-div .app-function-div *:not(:first-child) {
+        border-top-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        gap:4rem;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 1.2rem;
+    }
+    #find-park-sec .find-park-div .home-map:before{ display: block;}
+    #find-park-sec .find-park-div .home-map:after{ display: block;}
+    .map-i{
+        display: block;
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+    #download-app .shape-anim{display: block;}
+    footer .shape-anim{display: block;}
+    #find-park-sec .find-park-div .home-map .map-round{
+        border-radius: 50%;
+        width: 63%;
+        height: auto;
+        padding: 3rem;
+    }
+    #spote-sec .spote-div{
+        grid-template-areas: "a-f . a-r a-s a-s a-s"
+                             "a-f . a-m a-m a-m a-m"
+                             "a-f . a-m a-m a-m a-m"
+        ;
+        grid-template-columns: max-content;
+    }
+}
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+    #download-app .download-app-div .download-app-img-div img {
+        width: 100%;
+        height: 70vh;
+        object-fit: contain;
+    }
+    .navbar-collapse button{
+        display: flex;
+    }
+    #banner .banner-content-div h1{
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+    #banner .banner-content-div p{
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* hi-res laptops and desktops */
+    #banner .banner-content-div h1{
+        font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+    #banner .banner-content-div p{
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+    #find-park-sec .shape-div{
+        left: 20%;
+    }
+    #find-park-sec .find-park-div .img-div .img-div-content{
+        height: 7.3rem;
+    }
+
+    #find-park-sec .find-park-div .home-map iframe{
+        border-radius: 50%;
+        width: 33em;
+        height: 33em;
+        padding: 3rem;
+    }
+    #find-park-sec .find-park-div .home-map .map-round{
+        border-radius: 50%;
+        width: 33em;
+        height: 33em;
+        padding: 3rem;
+    }
+    #spote-sec .spote-div .app-mockup-div img{
+        height: 60vh;
+    }
+    #download-app .download-app-div .download-app-content img {
+        width: 62%;
+    }
+    #download-app .download-app-div .download-app-content {
+        width: 50vw;
+    }
+    #download-app .download-app-div .download-app-content h1{
+        font-size: 20rem;
+        line-height: 3rem;
+    }
+    #download-app .download-app-div .download-app-content h2{
+        font-size: 3rem;
+    }
+    #download-app .download-app-div .download-app-content h3{
+        padding: 6.5rem 0 0 6.5rem;
+    }
+    #download-app .download-app-div .download-app-content p {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .navbar-brand img {
+        width: 90%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
