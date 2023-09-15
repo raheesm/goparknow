@@ -1,0 +1,180 @@
+.jumb {
+    animation: jumb 4s alternate infinite;
+    -webkit-animation: jumb 4s alternate infinite;
+  }
+  
+  @keyframes jumb {
+    from {
+      transform: translateY(-8px);
+    }
+    to {
+        transform: translateY(0px);
+  
+    }
+  }
+
+  .grayAnim {
+    animation: grayAnim 2s linear alternate-reverse infinite;
+    -webkit-animation: grayAnim 2s linear alternate-reverse infinite;
+  }
+  @keyframes grayAnim{
+      from{
+        filter: grayscale(1);
+      }to{
+        filter:grayscale(0);
+      }
+  }
+  
+  .spin {
+    animation: spin 10s linear alternate-reverse forwards;
+    -webkit-animation: spin 10s linear alternate-reverse forwards;
+  }
+ 
+  
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+
+  .zoomAnim {
+    animation: zoomAnim 4s alternate infinite;
+    -webkit-animation: zoomAnim 4s alternate infinite;
+  }
+  @keyframes zoomAnim {
+    from {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+    }
+    to {
+      transform: scale(1.2,1.2);
+      -webkit-transform: scale(1.2,1.2);
+      -moz-transform: scale(1.2,1.2);
+      -ms-transform: scale(1.2,1.2);
+      -o-transform: scale(1.2,1.2);
+    }
+  }
+.color-blink{
+  animation: color-blink 300ms linear alternate-reverse forwards;
+  -webkit-animation: color-blink 300ms linear alternate-reverse forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes color-blink {
+  from{
+    fill:black;
+  }
+  to{
+    fill:#fff;
+  }
+}
+
+.bounce-slow{
+  @extend .animate__animated;
+  @extend .animate__bounce;
+  @extend .animate__slow;
+  @extend .animate__infinite;
+ 
+}
+
+  /***** banner anim *****/
+  #map1{
+    @extend .bounce-slow;
+    animation-delay: 2s;
+  }
+  // .shape-map{
+  //   img{
+  //     @extend .bounce-slow;
+  //   }
+  // }
+
+  #map2{
+    @extend #map1;
+    @extend .animate__repeat-2;
+    animation-delay: 2s;
+    // animation: color-blink 4s alternate infinite;
+    // -webkit-animation: color-blink 4s alternate infinite;
+  }
+#bigcar{
+     
+  // @extend .animate__animated;
+  // @extend .animate__zoomInDown;
+  // @extend .animate__slow;
+  // @extend .animate__repeat-1;
+ 
+}
+#smallcar path{
+  // transform-origin: 50% 50%;
+  // @extend .zoomAnim;
+ 
+}
+#smallplant,#p-small-plant{
+  @extend .animate__animated;
+  @extend .animate__fadeInUp;
+  @extend .animate__slow;
+  @extend .animate__repeat-1;
+ animation-delay: 5s;
+}
+#head-lamp-small path{
+  @extend .color-blink;
+
+  
+}
+// #register-2,#register{
+//   @extend .animate__animated;
+//   @extend .animate__pulse;
+//   @extend .animate__slow;
+//   @extend .animate__infinite;
+
+// }
+#park-board{
+  @extend .animate__animated;
+  @extend .animate__fadeIn;
+  @extend .animate__slow;
+  @extend .animate__repeat-1;
+}
+  /***** End banner anim *****/
+
+  /***** find-park-anim *****/
+  #p-car {
+        transform:translateX(500px);
+    // @extend .animate__animated;
+    // @extend .animate__bounceInRight;
+    // @extend .animate__slow;
+    // @extend .animate__repeat-1;
+}
+  #p-person{
+  //   @extend .animate__animated;
+  // @extend .animate__bounceInDown;
+  // @extend .animate__slow;
+  // @extend .animate__repeat-1;
+  // animation-delay: 2s;
+  }
+  #p-map-icon-mob{
+    @extend .animate__animated;
+  @extend .animate__jello;
+  @extend .animate__slow;
+  @extend .animate__infinite;
+  }
+
+
+  /***** End find-park-anim *****/
